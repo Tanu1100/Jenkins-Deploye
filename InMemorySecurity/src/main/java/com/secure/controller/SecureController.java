@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SecureController {
 	
 	
-	@GetMapping("/h")
+	@GetMapping("/hi")
 	public String Home()
 	{
 		return "Home Page:: Welcome to Home Page";
